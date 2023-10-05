@@ -27,20 +27,12 @@
   }
 
   function firstItemIsNumber(arr){
-    if(arr == 1, 2, 3){
-      return true
-    }else {
-      return false
-    } 
+   return typeof arr[0] === 'number'
    
   }
 
-  function secondCharOThirdString(arr){
-    if(arr == 'hello', 'sir', 'how',' are',' you'){
-    return arr.length (3 [2])
-    }else{
-      
-    } 
+  function secondCharOfThirdString(arr){
+    return arr[2][1]
     
   }
   
